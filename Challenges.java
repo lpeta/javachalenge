@@ -20,4 +20,8 @@ public class Challenges {
     return number * 5;
   }
 
+  public int times(int x, int y) {
+    return x * y;
+  }
+
 }

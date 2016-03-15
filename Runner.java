@@ -7,5 +7,6 @@ public class Runner {
     System.out.println("sum(3 + 3): " + challenges.sum(3, 3));
     System.out.println("5 first caracteres: " + challenges.firsFive("leo"));
     System.out.println("The number * 5 is: " + challenges.timesFive(5));
+    System.out.println("Times (5 * 2): " + challenges.times(5, 2));
   }
 }
