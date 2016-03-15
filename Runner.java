@@ -1,17 +1,9 @@
 public class Runner {
-  int x;
-  int y;
 
   public static void main(String[] args) {
 
-    System.out.println(Sum(3,3));
+    Challenges challenges = new Challenges();
 
-  }
-
-  public static int Sum (int x, int y) {
-
-    int output = x + y;
-    return output;
-
+    System.out.println("sum(3 + 3): " + challenges.sum(3, 3));
   }
 }
